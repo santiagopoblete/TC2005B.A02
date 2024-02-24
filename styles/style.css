@@ -56,7 +56,7 @@ header div {
     grid-template-columns: 80% 20%;
 }
 
-h1 {
+.section-strc1 div h1 {
     flex: 4;
     font-weight: 900;
     font-size: xx-large;
@@ -104,4 +104,86 @@ h1 {
     width: 100%;
     height: 100px;
     font-size: x-large;
+}
+
+.section-bg2 {
+    background-image: url("/images/kid_glasses.png");
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+}
+.section-bg2 h1 {
+    padding: 5%;
+    padding-bottom: 0%;
+    font-weight: 700;
+    font-size: xx-large;
+    margin-bottom: 0px;
+}
+.section-bg2 p {
+    font-weight: 700;
+    padding-left: 5%;
+    font-size: large;
+}
+
+.section-table-pads2 {
+    padding-left: 40%;
+    padding-right: 40%;
+    padding: 5%;
+}
+
+.section-table2 {
+    width: 100%;
+    border-collapse: collapse;
+
+}
+
+.section-table2  a{
+    color: black;
+}
+
+.table-top {
+    background-color: #1C71A1;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    height: 50px;
+}
+
+.table-row1 {
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    height: 50px;
+}
+
+.table-row2 {
+    background-color: #D9D9D9;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    height: 50px;
+}
+
+.Testimonials {
+    background-image: url("/images/kid_mask.png");
+}
+
+.Testimonials h4 {
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+    padding-left: 5%;
+    padding-top: 5%;
+    margin: 0;
+}
+
+.Testimonials h5 {
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+    padding-left: 5%;
+    width: 40%;
 }
