@@ -48,12 +48,15 @@ header div {
 .section-bg1 {
     background-color: #E7E991;
     width: auto;
-    padding: 2%;
 }
 
 .section-strc1 {
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
+}
+
+.article-strc1 {
+    padding: 5%;
 }
 
 .section-strc1 div h1 {
@@ -64,8 +67,9 @@ header div {
 
 .article-txt1 {
     text-align: right;
-    padding-left: 35%;
-    padding-right: 5%;
+    padding-left: 30%;
+    font-weight: 400;
+    font-size: larger;
 }
 
 .article-ft1 {
@@ -78,6 +82,7 @@ header div {
     border-top: 1px solid black;
     border-right: 1px solid black;
 }
+
 
 .aside-bg1 {
     background-color: #FEFFDB;
@@ -93,7 +98,7 @@ header div {
 }
 
 .aside-bg1-img{
-    width: 100%;
+    width: 70%;
 }
 
 .aside-button {
@@ -169,6 +174,7 @@ header div {
 
 .Testimonials {
     background-image: url("/images/kid_mask.png");
+    background-repeat: no-repeat;
 }
 
 .Testimonials h4 {
@@ -186,4 +192,48 @@ header div {
     color: white;
     padding-left: 5%;
     width: 40%;
+}
+
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30%;
+}
+
+.boxes {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1%;
+    width: 25%;
+    font-size: larger;
+}
+.boxes img {
+    padding-right: 10%;
+}
+
+.boxes h6 {
+    font-weight: 400;
+}
+
+.boxes p {
+    font-weight: 400;
+    font-size: large;
+}
+
+#boxborder1 {
+    border: 5px solid #20DD1C45;
+}
+
+#boxborder2 {
+    border: 5px solid #E7E991;
+}
+
+#boxborder3 {
+    border: 5px solid #F88484;
+}
+
+.blue-box {
+    background-color: #1C71A1;
+    height: 300px;
 }
