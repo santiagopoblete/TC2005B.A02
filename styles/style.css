@@ -264,7 +264,7 @@ header div {
     width: 90%;
     padding: 5%;
     border-radius: 5px;
-    border: 1% solid black;
+    border: 1px solid black;
     font-size: large;
 }
 
@@ -279,7 +279,7 @@ header div {
     width: 45%;
     padding: 5%;
     border-radius: 5px;
-    border: 5% solid black;
+    border: 1px solid black;
     box-sizing: border-box;
     font-size: large;
 }
@@ -288,7 +288,7 @@ header div {
     width: 90%;
     padding: 5%;
     border-radius: 5px;
-    border: 1% solid black;
+    border: 1px solid black;
     font-size: large;
     padding-bottom: 20%;
 }
